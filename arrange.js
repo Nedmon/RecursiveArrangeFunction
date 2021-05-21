@@ -1,5 +1,5 @@
 function recur(x, array) {
-     if(array[x] < 0) {
+     if(x < 0) {
 
         } else {
              if(array[x] < array[x - 1]) {                 // If the current iteration of the loop is LESS then the number before
